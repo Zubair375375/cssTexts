@@ -1,0 +1,192 @@
+/* FONT_FAMILY */
+/* body {
+    font-family: cursive;
+}
+
+h1,
+h2 {
+    font-family: Arial, Verdana, sans-serif;
+}
+credits {
+    font-family: "Courier New", Courier, 
+    monospace;
+} */
+
+/* FONT_SIZE */
+/* pixels */
+/* p{
+    font-size: 32px;
+} */
+/* percentages */
+/* p{
+    font-size: 500%;
+} */
+
+/* defult values */
+/* p{
+    font-size: larger;
+} */
+/* p{
+    font-size: 3em;
+} */
+
+/* FONT-FACE */
+/* @font-face {
+    font-family: 'test';
+    src: url('./fonts/EduTASBeginner-Bold.ttf');
+}
+h1{
+    font-family: Test;
+} */
+
+/* FONT-WEIGHT */
+
+/* p{
+    font-weight:bolder; ;
+} */
+
+/* FONT-STYLE */
+
+/* h1{
+    font-style: italic;
+} */
+
+/* Using id selector comparing 3 styles */
+
+/* #normal{
+    font-style: normal;
+}
+
+#italic{
+    font-style: italic;
+}
+#oblique{
+    font-style: oblique;
+} */
+
+/* TEXT-TRANSFORMATION */
+/* hello guys <=lower case*/
+/* HELOW GUYS <=UPPER CASE */
+/* Hello Guys Hello Guys How Are You Doing? <=capitalize*/
+/* h1{
+    text-transform: uppercase;
+} */
+/* h1{
+    text-transform: capitalize;
+} */
+
+/* Text-duraction */
+/* #underline{
+text-decoration: underline;
+}
+#overline{
+text-decoration: overline;
+}
+#line-through{
+text-decoration: line-through;
+}
+#blink{
+text-decoration: blink;
+} */
+/* Leading/line-height */
+/* p{
+    line-height: 50px;
+} */
+
+/* Letter and word spacing */
+/* h1 {
+  word-spacing: 5px;
+} */
+
+/* Letter spacing */
+/* h1 {
+  letter-spacing: 0px;
+} */
+
+/* Text Align */
+/* h1 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+} */
+
+/* Vertical Alignment */
+/* img {
+  vertical-align: middle;
+} */
+
+/* text indent */
+/* p {
+  text-indent: 50px;
+} */
+
+/* text shadow */
+/* h1 {
+  background: rgb(194, 194, 194);
+  text-shadow: 1px 1px 0px rgb(226, 121, 121);
+} */
+
+/* first letter line */
+/* p::first-letter {
+  color: red;
+} */
+/* p::first-line {
+  color: blue;
+} */
+
+/* styling links */
+/* a:link {
+  color: green;
+}
+a:visited {
+  color: red;
+} */
+
+/* responding to user */
+/* hover */
+/* input.btn:hover {
+  background-color: red;
+} */
+
+/* active */
+/* input.btn:active {
+  background-color: blue;
+} */
+
+/* focus */
+/* input.textBox:focus {
+  background-color: yellow;
+  color: red;
+} */
+
+/* Attribute Selectors */
+/* existance */
+/* h1[test] {
+  color: red;
+} */
+
+/* equality */
+/* h1[test="hiAgain"] {
+  color: red;
+} */
+
+/* space  */
+/* h1[test~="hi"] {
+  color: rgb(231, 110, 110);
+} */
+
+/* prefix */
+/* h1[test^="hi"] {
+  color: blue;
+} */
+
+/* substring */
+/* h1[test*="ell"] {
+  color: brown;
+} */
+
+/* suffix */
+/* h1[test$="l"] {
+  color: blue;
+} */
